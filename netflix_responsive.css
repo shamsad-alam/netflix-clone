@@ -1,0 +1,184 @@
+/*=========================================== RESPONSIVE WEBSITE DESIGN ==========================================================*/
+/*=========================================== RESPONSIVE WEBSITE DESIGN ==========================================================*/
+
+@media only screen and (max-width: 1024px) {
+    header nav {
+        width: 90%;
+    }
+
+    .banner .banner_title {
+        width: 90%;
+    }
+
+    .banner .banner_title h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+        margin-top: 40px;
+    }
+
+    .banner .banner_title p {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .enjoy {
+        width: 90%;
+    }
+
+    .enjoy .enjoy_title h1 {
+        font-size: 40px;
+    }
+
+    .enjoy .enjoy_title p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .enjoy .enjoy_img img {
+        width: 32rem;
+    }
+
+    .accordian .acordn_ul {
+        width: 90%;
+    }
+
+    .accordian .acordn_ul li label {
+        font-size: 24px;
+    }
+
+    footer {
+        width: 78%;
+        margin-left: 50px;
+    }
+
+    footer .f_content_1 li{
+        width: calc(100% / 2);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header nav img {
+        width: 140px;
+    }
+
+    .banner .banner_title h1 {
+        font-size: 30px;
+    }
+
+    .banner .banner_title p {
+        font-size: 18px;
+    }
+
+    .banner .email input {
+        height: 2.8rem;
+    }
+
+    .banner .email button {
+        height: 2.8rem;
+    }
+
+    .enjoy {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .enjoy .enjoy_title h1 {
+        font-size: 30px;
+    }
+
+    .enjoy .enjoy_title p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .enjoy .enjoy_img img {
+        width: 90%;
+    }
+
+    .accordian .acodn_title h1 {
+        font-size: 30px;
+    }
+
+    .accordian .acordn_ul li label {
+        font-size: 18px;
+    }
+
+    .accordian .acordn_para {
+        font-size: 18px;
+    }
+
+    footer {
+        width: 78%;
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 649px) {
+    header nav {
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    header nav img {
+        width: 120px;
+    }
+
+    .navbtn button {
+        padding: 9px 10px;
+    }
+
+    .navbtn select {
+        padding: 8px 10px;
+    }
+
+    .banner .banner_title p {
+        line-height: 25px;
+    }
+
+    .banner .banner_title h1 {
+        line-height: 40px;
+    }
+
+    .banner .email input {
+        width: 95%;
+        margin: 20px 0px;
+    }
+
+    .enjoy {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .accordian .acodn_title h1 {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .accordian .email{
+        width: 90%;
+        text-align: center;
+    }
+
+    .accordian .email input{
+        width: 100%;
+    }
+    .accordian .email button{
+        width: 50%;
+        margin: 15px 0 60px 0;
+        padding: 0px;
+        font-size: 18px;
+    }
+
+    .accordian .acordn_para {
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    footer {
+        width: 90%;
+        margin: 40px 20px;
+    }
+}
